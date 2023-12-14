@@ -33,6 +33,7 @@
 (^|\.)\w*admaster\w*\.\w*$
 (^|\.)\w*adsage\w*\.\w*$
 (^|\.)\w*adsensor\w*\.\w*$
+(^|\.)\w*adservice\w*\.\w*$
 (^|\.)\w*adsmogo\w*\.\w*$
 (^|\.)\w*adsrvmedia\w*\.\w*$
 (^|\.)\w*adsserving\w*\.\w*$
@@ -54,6 +55,7 @@
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
 (^|\.)\w*umeng\w*\.\w*$
+(^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
 (^|\.)ad\d{0,3}\..*$
@@ -170,6 +172,7 @@
 (^|\.)baidu9635\.com$
 (^|\.)baidustatic\.com$
 (^|\.)baidutv\.baidu\.com$
+(^|\.)baikebcs\.bdimg\.com$
 (^|\.)banlv\.baidu\.com$
 (^|\.)bar\.baidu\.com$
 (^|\.)bdplus\.baidu\.com$
@@ -391,7 +394,7 @@
 (^|\.)(ad|ad1|shenghuo|xmpush)\.xiaomi\.com$
 (^|\.)(a|wtradv)\.market\.xiaomi\.com$
 (^|\.)(bss|de|dvb|jellyfish|stat)\.pandora\.xiaomi\.com$
-(^|\.)(d|migc|migcreport)\.g\.mi\.com$
+(^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
 (^|\.)(notice|ppurifier)\.game\.xiaomi\.com$
 (^|\.)(r|security)\.browser\.miui\.com$
 (^|\.)adv\.sec\.intl\.miui\.com$
@@ -910,6 +913,7 @@
 (^|\.)edigitalsurvey\.com$
 (^|\.)eduancm\.com$
 (^|\.)emarbox\.com$
+(^|\.)epsilon\.com$
 (^|\.)exosrv\.com$
 (^|\.)fancyapi\.com$
 (^|\.)feitian001\.com$
@@ -985,6 +989,7 @@
 (^|\.)mediaplex\.com$
 (^|\.)mediav\.com$
 (^|\.)megajoy\.com$
+(^|\.)meiqia\.com$
 (^|\.)mgogo\.com$
 (^|\.)miaozhen\.com$
 (^|\.)microad-cn\.com$
@@ -1197,6 +1202,7 @@
 (^|\.)criteo\.com$
 (^|\.)criteo\.net$
 (^|\.)csbew\.com$
+(^|\.)demdex\.net$
 (^|\.)directrev\.com$
 (^|\.)dumedia\.ru$
 (^|\.)effectivemeasure\.com$
@@ -1507,12 +1513,9 @@
 (^|\.)gov\.cn$
 (^|\.)net\.cn$
 (^|\.)org\.cn$
-## .中国 => punycode
-(^|\.)xn--fiqs8s$
-## .公司 => punycode
-(^|\.)xn--55qx5d$
-## .网络 => punycode
-(^|\.)xn--io0a7i$
+(^|\.)中国$
+(^|\.)公司$
+(^|\.)网络$
 
 # 中国国内常见域名关键词直连
 (^|\.)\w*-cn\w*\.\w*$
@@ -1527,6 +1530,7 @@
 (^|\.)\w*ccgslb\w*\.\w*$
 (^|\.)\w*chinacache\w*\.\w*$
 (^|\.)\w*duobao\w*\.\w*$
+(^|\.)\w*duolingo\w*\.\w*$
 (^|\.)\w*jdpay\w*\.\w*$
 (^|\.)\w*moke\w*\.\w*$
 (^|\.)\w*qhimg\w*\.\w*$
@@ -1632,6 +1636,11 @@
 (^|\.)hdslb\.com$
 (^|\.)im9\.com$
 
+# Blizzard
+(^|\.)battle\.net$
+(^|\.)battlenet\.com$
+(^|\.)blizzard\.com$
+
 # ByteDance
 (^|\.)bytedance\.com$
 (^|\.)bytedance\.net$
@@ -1655,7 +1664,6 @@
 (^|\.)toutiaoimg\.com$
 (^|\.)toutiaopage\.com$
 (^|\.)wukong\.com$
-(^|\.)zijieapi\.com$
 (^|\.)zijieimg\.com$
 (^|\.)zjbyte\.com$
 (^|\.)zjcdn\.com$
@@ -1982,6 +1990,8 @@
 (^|\.)clouddn\.com$
 (^|\.)cloudxns\.net$
 (^|\.)cn163\.net$
+(^|\.)cnbeta\.com$
+(^|\.)cnbetacdn\.com$
 (^|\.)cnblogs\.com$
 (^|\.)cnki\.net$
 (^|\.)cnmstl\.net$
@@ -2057,6 +2067,7 @@
 (^|\.)lizhi\.fm$
 (^|\.)lizhi\.io$
 (^|\.)lizhifm\.com$
+(^|\.)loli\.net$
 (^|\.)luoo\.net$
 (^|\.)lvmama\.com$
 (^|\.)lxdns\.com$
@@ -2084,6 +2095,7 @@
 (^|\.)oschina\.net$
 (^|\.)ourdvs\.com$
 (^|\.)overcast\.fm$
+(^|\.)paypal\.com$
 (^|\.)polyv\.net$
 (^|\.)qbox\.me$
 (^|\.)qcloud\.com$
@@ -2110,6 +2122,7 @@
 (^|\.)sf-express\.com$
 (^|\.)shumilou\.net$
 (^|\.)simplecd\.me$
+(^|\.)sm\.ms$
 (^|\.)smzdm\.com$
 (^|\.)snwx\.com$
 (^|\.)soufunimg\.com$
@@ -8271,7 +8284,6 @@
 (^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
 
 # 本地/局域网地址
-^(.*\.)?lan$
 ^(.*\.)?local$
 ^(.*\.)?localhost$
 ^(.*\.)?ip6-localhost$
@@ -11993,6 +12005,7 @@
 (^|\.)oursweb\.net$
 (^|\.)ourtv\.hk$
 (^|\.)overplay\.net$
+(^|\.)oversea\.istarshine\.com$
 (^|\.)owl\.li$
 (^|\.)ow\.ly$
 (^|\.)oyax\.com$

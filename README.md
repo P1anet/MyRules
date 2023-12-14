@@ -1,8 +1,6 @@
-# MyRules
+# ZJU Rule
 
-继承自[lizhist/ZJU-Rule](https://github.com/lizhist/ZJU-Rule)
-
-基于 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) 修改后的 ZJU 分流规则
+基于 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master) 修改后的 ZJU 分流规则
 
 项目使用 CC-BY-SA-4.0 协议发布 [![CC-BY-SA-4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 
