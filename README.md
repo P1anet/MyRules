@@ -43,11 +43,11 @@
 
 + 无论机场提供的订阅链接是 SS/SSR/V2Ray 等订阅链接，还是 Clash 订阅链接，都需要提取出其中的节点信息，再按照 ZJU Rule 进行处理，生成处理后的 Clash 订阅链接
 
-+ 订阅转换需要使用 [subconverter](https://github.com/tindy2013/subconverter)。subconverter 的部署较为复杂，推荐使用已在腾讯云香港部署完成的公用 ZJU Rule 转换服务。也可以自己搭建 subconverter 并使用 ZJU Rule 规则进行订阅转换
++ 订阅转换需要使用 [subconverter](https://github.com/tindy2013/subconverter)，可使用[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)提供的[前端转换服务](https://acl4ssr-sub.github.io/) + [subconverter后端接口](https://github.com/tindy2013/subconverter)，也可以自己搭建 [subconverter](https://github.com/tindy2013/subconverter) 并使用 ZJU Rule 规则进行订阅转换
 
-+ 下面介绍如何使用公用 ZJU Rule 转换服务。打开 [ZJU Rule 转换网站](https://zjurule.xyz/)，粘贴机场提供的订阅链接，点击生成订阅链接即可生成转换后的订阅链接
++ 注意，使用公用规则转换服务可能会导致订阅泄露，推荐自行搭建，参考[subconv文档](https://subconv.is-sb.com/)
 
-+ 在 Clash 客户端中添加上一步得到的链接即可。推荐设置为每小时更新一次，以同步机场配置文件和 ZJU Rule 的更改
++ 若要为其他客户端生成订阅链接，可以直接更改链接中的 target 参数，参考 [subconverter](https://github.com/tindy2013/subconverter) 文档
 
 ### 配置分流方式
 
@@ -55,26 +55,19 @@
 
 Clash 采用继承的分流配置方式，例如，巴哈姆特设置为使用台湾节点，则将使用台湾节点分组中选中的节点进行代理。可以根据自己的需要进行配置，如将哔哩哔哩配置为香港/台湾节点以访问港澳台资源
 
-## 常见问题
+### 修改分组规则
 
-+ 我不喜欢生成的规则/分组太复杂，可以更改吗？
+公用转换服务使用 [ZJU.ini](https://github.com/P1anet/MyRules/blob/master/Clash/config/ZJU.ini) 作为规则分组文件。该文件修改自 [ACL4SSR_Online_Full_AdblockPlus.ini](https://github.com/P1anet/MyRules/blob/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini)，添加了 [ZJU.list](https://github.com/P1anet/MyRules/blob/master/Clash/ZJU.list)。如要修改规则分组，请 Fork 本项目，自行搭建 [subconverter](https://github.com/tindy2013/subconverter) 并编辑 [ZJU.ini](https://github.com/P1anet/MyRules/blob/master/Clash/config/ZJU.ini) 进行转换
 
-  公用转换服务使用 [ZJU.ini](https://github.com/ZJU-Rule/ZJU-Rule/blob/master/Clash/config/ZJU.ini) 作为规则分组文件。该文件修改自 [ACL4SSR_Online_Full_AdblockPlus.ini](https://github.com/ZJU-Rule/ZJU-Rule/blob/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini)，添加了 [ZJU.list](https://github.com/ZJU-Rule/ZJU-Rule/blob/master/Clash/ZJU.list)。如要修改规则分组，请 Fork 本项目，自行搭建 [subconverter](https://github.com/tindy2013/subconverter) 并编辑 [ZJU.ini](https://github.com/ZJU-Rule/ZJU-Rule/blob/master/Clash/config/ZJU.ini) 进行转换
 
-+ 使用公用 ZJU Rule 转换服务会泄露我的订阅链接吗？
+### 对 ZJU Rule 进行完善
 
-  我们不会对用户的订阅链接进行储存。您也可以自行搭建 [subconverter](https://github.com/tindy2013/subconverter) 并使用 ZJU Rule 规则进行转换
-
-+ 我可以为其他客户端生成订阅链接吗？
-  
-  您可以在 [ZJU Rule 转换网站](https://zjurule.xyz/)中更改客户端。您也可以直接更改链接中的 target 参数。请参考 [subconverter](https://github.com/tindy2013/subconverter) 文档
-
-+ 我可以对 ZJU Rule 进行完善吗？
-
-  欢迎通过 Issue 提出意见或建议，或提交 Pull Request 完善规则。ZJU 内网规则之外的规则请向项目上游 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master) 进行反馈，上游不予采纳时也可以向 ZJU Rule 提交
+欢迎通过 Issue 提出意见或建议，或提交 Pull Request 完善规则。ZJU 内网规则之外的规则请向项目上游 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master) 进行反馈，上游不予采纳时也可以向 ZJU Rule 提交
 
 ## 致谢
 
 + [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)
 + [subconverter](https://github.com/tindy2013/subconverter)
 + [Clash](https://github.com/Dreamacro/clash)
++ [SubConv/ZJU-Rule](https://github.com/SubConv/ZJU-Rule)
++ [lizhist/ZJU-Rule](https://github.com/lizhist/ZJU-Rule)
