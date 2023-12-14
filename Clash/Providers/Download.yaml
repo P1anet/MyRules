@@ -9,6 +9,7 @@ payload:
   # PROCESS-NAME,uTorrent.exe
   # PROCESS-NAME,WebTorrent.exe
   # PROCESS-NAME,WebTorrent Helper.exe
+  # PROCESS-NAME,qbittorrent.exe
   # bt
   - DOMAIN-SUFFIX,smtp
   - DOMAIN-KEYWORD,aria2
@@ -23,5 +24,5 @@ payload:
   # URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
   # Tencent Weiyun
   # PROCESS-NAME,Weiyun.exe
-  #Baidu disk
+  # Baidu disk
   # PROCESS-NAME,baidunetdisk.exe

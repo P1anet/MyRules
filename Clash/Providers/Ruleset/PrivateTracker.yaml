@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,tracker
+  - DOMAIN,v6.nexushd.org
   - DOMAIN-SUFFIX,1ptba.com
   - DOMAIN-SUFFIX,52pt.site
   - DOMAIN-SUFFIX,aidoru-online.me
@@ -120,6 +121,5 @@ payload:
   - DOMAIN-SUFFIX,torrentseeds.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,trontv.com
-  - DOMAIN-SUFFIX,u2.dmhy.org
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,xauat6.edu.cn

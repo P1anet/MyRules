@@ -51,7 +51,6 @@
 ^.*\.sg$
 ^.*\.tw$
 ^.*\.uk$
-^.*\.us$
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$
@@ -2676,7 +2675,6 @@
 (^|\.)israbox\.com$
 (^|\.)issuu\.com$
 (^|\.)istars\.co\.nz$
-(^|\.)istarshine\.com$
 (^|\.)istef\.info$
 (^|\.)istiqlalhewer\.com$
 (^|\.)istockphoto\.com$

@@ -187,7 +187,6 @@ payload:
   - DOMAIN-SUFFIX,baidu9635.com
   - DOMAIN-SUFFIX,baidustatic.com
   - DOMAIN-SUFFIX,baidutv.baidu.com
-  - DOMAIN-SUFFIX,baikebcs.bdimg.com
   - DOMAIN-SUFFIX,banlv.baidu.com
   - DOMAIN-SUFFIX,bar.baidu.com
   - DOMAIN-SUFFIX,bdplus.baidu.com
@@ -563,7 +562,6 @@ payload:
   - DOMAIN-SUFFIX,jellyfish.pandora.xiaomi.com
   - DOMAIN-SUFFIX,migc.g.mi.com
   - DOMAIN-SUFFIX,migcreport.g.mi.com
-  - DOMAIN-SUFFIX,mis.g.mi.com
   - DOMAIN-SUFFIX,notice.game.xiaomi.com
   - DOMAIN-SUFFIX,ppurifier.game.xiaomi.com
   - DOMAIN-SUFFIX,r.browser.miui.com
@@ -572,7 +570,6 @@ payload:
   - DOMAIN-SUFFIX,stat.pandora.xiaomi.com
   - DOMAIN-SUFFIX,union.mi.com
   - DOMAIN-SUFFIX,wtradv.market.xiaomi.com
-  - DOMAIN-SUFFIX,xmpush.xiaomi.com
 
   # Moji
   - DOMAIN-SUFFIX,ad.api.moji.com
@@ -799,8 +796,6 @@ payload:
   - DOMAIN-SUFFIX,ybp.yahoo.com
 
   # Zhihu
-  - DOMAIN-SUFFIX,sugar.zhihu.com
-  - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
 
   # Ads in Video apps 下面都是 ********************
 
